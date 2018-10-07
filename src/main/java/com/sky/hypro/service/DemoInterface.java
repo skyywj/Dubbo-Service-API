@@ -1,6 +1,5 @@
-package api.demo;
+package com.sky.hypro.service;
 
-import api.demo.bean.DemoBean;
 
 /**
  * @Author: CarryJey

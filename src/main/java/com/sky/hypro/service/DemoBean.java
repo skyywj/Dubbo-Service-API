@@ -1,4 +1,4 @@
-package api.demo.bean;
+package com.sky.hypro.service;
 
 import java.io.Serializable;
 
