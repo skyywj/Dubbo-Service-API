@@ -21,3 +21,5 @@
  1、[demo接口](introduce/demo.md) 
  
  2、[钱包接口](introduce/wallet.md)
+ 
+ 3、[id生成器接口](introduce/idservice.md)
