@@ -1,8 +1,4 @@
-注意代码格式化：IDEA
-
-快捷键 windows：ctrl+alt+l   mac：option+command+l（win+alt+l）
-
-此项目为`dubbo服务`的`api接口`服务。
+### demo接口是一个模板接口，演示使用dubbo api
 
     service-api使用流程：
         1）api定义
@@ -15,9 +11,3 @@
         使用@Service(version="")
         3）其他服务使用
         使用@reference(version="")
-        
-## 相关接口说明：
-
- 1、[demo接口](introduce/demo.md) 
- 
- 2、[钱包接口](introduce/wallet.md)
