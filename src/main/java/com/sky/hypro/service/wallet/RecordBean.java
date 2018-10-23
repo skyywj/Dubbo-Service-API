@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 /**
  * @Author: CarryJey @Date: 2018/10/22 17:41:07 消费流水记录
  */
-public class IncomeBean {
+public class RecordBean {
     private long id;
     private long userId;
     private String userPhone;
