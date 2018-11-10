@@ -23,3 +23,5 @@
  2、[钱包接口](introduce/wallet.md)
  
  3、[id生成器接口](introduce/idservice.md)
+ 
+ 4、[加解密服务接口](introduce/crypto.md)
