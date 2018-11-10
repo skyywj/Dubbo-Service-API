@@ -1,4 +1,4 @@
-package com.sky.hypro.service.Idservice;
+package com.sky.hypro.service.idservice;
 
 /**
  * ID 生成服务

@@ -1,18 +1,13 @@
-package com.zidanduanxin.api.exception;
+package com.sky.hypro.service.exception;
 
 /**
- * Created by zhang.shaolong on 2018/9/4.
+ * @author CarryJey
+ * @since 2018/11/10
  */
 public enum ErrorCode {
     SERVICE_ERROR(500, "service error"),
 
     PARAM_ERROR(505, "params error"),
-
-    SIGN_ERROR(506, "sign error"),
-
-    ORDER_ERROR(509, "order error"),
-
-    PRICE_ERROR(508, "price error"),
 
     TYPE_ERROR(502, "type error"),
 
@@ -20,8 +15,7 @@ public enum ErrorCode {
 
     NOT_FOUND_ERROR(510, "not found error"),
 
-    CRYPTO_ERROR(511,"crypto error");
-
+    CRYPTO_ERROR(511, "crypto error");
 
     private int code;
     private String description;
@@ -36,7 +30,6 @@ public enum ErrorCode {
     }
 
     public String getDescription() {
-
         return description;
     }
 }

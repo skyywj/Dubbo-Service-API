@@ -1,43 +1,43 @@
-package com.zidanduanxin.api.exception;
+package com.sky.hypro.service.exception;
 
 /**
  * 通用的异常信息
- *
- * Created by zhang.shaolong on 2018/9/4.
+ * @author CarryJey
+ * @since 2018/11/10
  */
-public class ZidanException extends RuntimeException{
+public class SkyException extends RuntimeException{
 
     /** 错误码信息  **/
     private int errorCode;
 
     private String message;
 
-    public ZidanException() {
+    public SkyException() {
         super();
     }
 
-    public ZidanException(String message) {
+    public SkyException(String message) {
         super(message);
         this.errorCode = ErrorCode.UNKNOW_ERROR.getCode();
     }
 
-    public ZidanException(ErrorCode errorCode) {
+    public SkyException(ErrorCode errorCode) {
         super(errorCode.getDescription());
         this.errorCode = errorCode.getCode();
     }
 
-    public ZidanException(ErrorCode errorCode, String message) {
+    public SkyException(ErrorCode errorCode, String message) {
         super(errorCode.getDescription());
         this.errorCode = errorCode.getCode();
         this.message = message;
     }
 
-    public ZidanException(ErrorCode errorCode, Throwable cause) {
+    public SkyException(ErrorCode errorCode, Throwable cause) {
         super(errorCode.getDescription(),cause);
         this.errorCode = errorCode.getCode();
     }
 
-    public ZidanException(Throwable cause) {
+    public SkyException(Throwable cause) {
         super(cause);
     }
 
